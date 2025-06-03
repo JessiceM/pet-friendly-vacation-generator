@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,18 +18,13 @@
       <h1>Welcome to the <br />Pet Friendly Vacation Planner</h1>
     </header>
     <main>
-      <form>
+      <form id="vacation-generator-form">
         <input type="text" placeholder="Enter the vacation destination"
         autofocus required autocomplete="off" class="prompt"/ >
         <input type="Submit" class="submitButton" />
       </form>
 
-      <div class="poem">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni hic
-        repellat explicabo optio quibusdam eum! Nulla saepe nostrum fugit ipsa
-        itaque quibusdam officia culpa voluptatum repudiandae similique?
-        Sapiente, aut sequi?
-      </div>
+      <div class="poem" id="vacation"></div>
     </main>
 
     <footer>
