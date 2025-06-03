@@ -1,4 +1,74 @@
 body {
-  background: rgb(240, 204, 158);
+  background-color: #f3bc77;
   text-align: center;
+}
+
+a {
+  color: #a55233;
+}
+h1 {
+  font-family: "Ribeye", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #a55233;
+  line-height: 1.5;
+}
+
+main {
+  margin: 90px auto;
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 35px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #402a23;
+  box-shadow: 0px 10px 30px#402a23;
+}
+
+.prompt {
+  padding: 10px;
+  border: 1px solid #402a23;
+  border-radius: 20px;
+  width: 70%;
+  line-height: 20px;
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.submitButton {
+  padding: 10px;
+  border: none;
+  background: #f3bc77;
+  border-radius: 20px;
+  line-height: 20px;
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  width: 110px;
+  box-shadow: 8px 3px 3px black;
+}
+
+.submitButton:hover {
+  color: white;
+}
+
+.poem {
+  padding: 30px;
+  border-radius: 5px;
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #a55233;
+  box-shadow: 0px 20px 50px#402a23;
+  border-left: 3px solid black;
+  font-size: 23px;
+}
+
+footer {
+  font-size: 13px;
 }
