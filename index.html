@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,20 +12,29 @@
       href="https://fonts.googleapis.com/css2?family=Chewy&family=Ribeye&family=Unkempt:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>AI Pet-Friendly Vacation Generator</title>
+    <script
+      src="https://kit.fontawesome.com/3d3fa9cbd2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Pet-Friendly Vacation Panner</title>
   </head>
   <body>
     <header>
-      <h1>Welcome to the <br />Pet Friendly Vacation Planner</h1>
+      <h1>
+        <i class="fas fa-dog"></i></i> Welcome to the <br />Pet Friendly Vacation
+        Planner <i class="fas fa-cat"></i>
+      </h1>
     </header>
     <main>
+
       <form id="vacation-generator-form">
         <input type="text" placeholder="Enter the vacation destination"
-        autofocus required autocomplete="off" class="prompt"/ >
+        autofocus required autocomplete="off" class="instructions"
+        id="user-instructions" / > 
         <input type="Submit" class="submitButton" />
       </form>
-
-      <div class="poem" id="vacation"></div>
+<!-- Below is the form that will display the results -->
+      <div class="poem" id="poem"><img src="src/cat-8525662_1280.png" alt="Image by Евгения from Pixabay" class="petIcon"></i></div>
     </main>
 
     <footer>
