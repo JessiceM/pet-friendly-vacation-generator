@@ -2,22 +2,31 @@ body {
   background-color: #f3bc77;
   text-align: center;
   cursor: url("dogpaw.png"), auto; /* Example: Use a custom image as cursor */
-  position: relative;
+  margin: 0px 0px 50px 0px;
 }
 
-a {
-  color: #a55233;
+header {
+  background-color: #402a23;
+  height: 160px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
+
+.petIcon {
+  border-radius: 150px;
+  width: 25%;
+  transform: translate(450px, 7%);
+}
+
 h1 {
   font-family: "Ribeye", serif;
   font-weight: 400;
   font-style: normal;
-  color: #a55233;
+  color: white;
   line-height: 1.5;
-  border-style: dashed;
-  width: 700px;
   margin: auto;
-  padding: 10px;
+  text-align: left;
+  transform: translateX(-250px);
 }
 
 main {
@@ -62,6 +71,7 @@ form {
 .submitButton:hover {
   color: white;
   cursor: url("dogpaw.png"), auto; /* Example: Use a custom image as cursor */
+  border: 2px solid white;
 }
 
 .poem {
@@ -81,7 +91,6 @@ footer {
   font-size: 13px;
 }
 
-.petIcon {
-  border-radius: 150px;
-  width: 30%;
+a {
+  color: #a55233;
 }
