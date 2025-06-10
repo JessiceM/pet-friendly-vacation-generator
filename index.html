@@ -19,11 +19,12 @@
     <title>Pet-Friendly Vacation Panner</title>
   </head>
   <body>
-    <div class="head">
+    
 
       <header>
         <img src="src/cat-8525662_1280.png" alt="Image by Евгения from Pixabay" class="petIcon">
-        <h1>
+        
+        <h1 class="head">
          
           <i class="fas fa-dog"></i></i> Welcome to the <br />Pet Friendly Vacation
           Planner <i class="fas fa-cat"></i>
@@ -32,16 +33,25 @@
     </div>
   
     <main>
-
-      <form id="vacation-generator-form">
-        <input type="text" placeholder="Enter the vacation destination"
+<div class="form-container">
+<form id="vacation-generator-form">
+        <input type="text" placeholder="Enter your vacation destination"
         autofocus required autocomplete="off" class="instructions"
-        id="user-instructions" / > 
+        id="user-instructions" /> 
         <input type="Submit" class="submitButton" />
       </form>
+      <div class="hint"> i.e: Dallas, Texas or Mexico</div>
+</div>
+      
 <!-- Below is the form that will display the results -->
-      <div class="poem" id="poem"></div>
+
+      <div class="poem hidden" id="poem"></div>
     </main>
+    <div class="emailButton">
+      <button class="email-button" id="email">Email this itenerary</button>
+
+    </div>
+  
 
     <footer>
       This was coded by
@@ -57,7 +67,7 @@
         href="https://ai-pet-friendly-vacation-generator.netlify.app/"
         target="blank"
         >Netlify</a
-      >.
+      >
     </footer>
     <script src="src/index.js"></script>
   </body>
