@@ -50,7 +50,7 @@ function generateEmail(event) {
     alert(
       "Thank you for visiting our site. Your itenerary has been sent to " +
         address +
-        "."
+        ". Please note this email feature will come soon."
     );
   } else {
     alert("Please enter in the email address");
