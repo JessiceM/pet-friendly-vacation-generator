@@ -8,13 +8,19 @@ body {
 header {
   background-color: #402a23;
   height: 160px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .petIcon {
   border-radius: 150px;
-  width: 140px;
+  max-width: 200px;
   height: 130px;
-  transform: translate(-260px, 9%);
+  transform: translate(-20px, 2%);
+  float: left;
+  margin-right: 20px;
 }
 
 h1 {
@@ -23,12 +29,8 @@ h1 {
   font-style: normal;
   color: white;
   line-height: 1.5;
-  margin: auto;
   text-align: left;
-}
-
-.head {
-  transform: translate(450px, -100px);
+  float: right;
 }
 
 .form-container {
